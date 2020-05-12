@@ -1,0 +1,43 @@
+// 共用部分
+body {
+  font-family: 'Roboto', 'Microsoft JhengHei', 'Noto Sans TC',sans-serif;
+  box-sizing: border-box;  // 將所有內容設為 border-box
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;  // 繼承父層 box-sizing 設定
+}
+
+img {
+  display: block;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+// 文字部分
+.fz-20 {
+  font-size: 20px;
+	line-height: 42px;
+}
+
+.fz-24 {
+	font-size: 24px;
+	line-height: 42px;
+}
+
+.medium{
+  font-weight: 500;
+}
+.bold{
+  font-weight: 700;
+}
+.black{
+  font-weight: 900;
+}
